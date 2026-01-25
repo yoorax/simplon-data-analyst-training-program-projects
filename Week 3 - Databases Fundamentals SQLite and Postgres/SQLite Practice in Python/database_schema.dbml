@@ -1,0 +1,45 @@
+// Use this file with the dbdiagram.io extension or website
+
+Table auteurs {
+  auteur_id integer [primary key, increment]
+  nom varchar(30) [not null]
+  prenom varchar(30) [not null]
+  pays varchar(30) [not null]
+}
+
+Table genre {
+  genre_id integer [primary key, increment]
+  nom_genre varchar(30) [not null]
+}
+
+Table livres {
+  livre_id integer [primary key, increment]
+  titre varchar(30) [not null]
+  auteur_id integer
+  genre_id integer
+  date_publication date [not null]
+  disponible boolean [not null]
+}
+
+Table emprunteurs {
+  emprunteur_id integer [primary key, increment]
+  nom varchar(30) [not null]
+  prenom varchar(30) [not null]
+  email varchar(50)
+  telephone varchar(15)
+}
+
+Table emprunts {
+  emprunt_id integer [primary key, increment]
+  livre_id integer
+  emprunteur_id integer
+  date_emprunt date [not null]
+  date_retour_prevue date [not null]       
+  date_retour_effective date
+}
+
+// Relationships (Foreign Keys)
+Ref: livres.auteur_id > auteurs.auteur_id
+Ref: livres.genre_id > genre.genre_id
+Ref: emprunts.livre_id > livres.livre_id
+Ref: emprunts.emprunteur_id > emprunteurs.emprunteur_id
