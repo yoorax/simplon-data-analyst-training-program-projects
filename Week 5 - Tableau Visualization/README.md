@@ -1,4 +1,5 @@
-# Sales Performance & Customer Satisfaction Analysis
+# Project Documentation :
+# European Sales Visualization with Tableau :
 
 ## 1. Project Overview
 * **Goal:** This project delivers a comprehensive analysis of commercial data to monitor sales performance, identify trends, and correlate customer satisfaction with revenue.
@@ -119,6 +120,7 @@ The "Sales by Country" choropleth map delineates revenue concentration across Eu
 ### **Conclusion & Insights**
 
 The analysis reveals a highly concentrated market dominance in Central Europe, with France and Germany collectively contributing the majority of the €2.3M total revenue. While sales volume fluctuates drastically across sub-categories, the overall revenue trend demonstrates consistent upward momentum, frequently surpassing the average sales threshold in the latter years. The divergence between quantity and sales value in specific categories suggests opportunities for pricing optimization or inventory adjustment to maximize profit margins on high-volume items.
+
 
 
 
