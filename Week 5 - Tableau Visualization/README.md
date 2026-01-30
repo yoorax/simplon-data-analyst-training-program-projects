@@ -29,7 +29,6 @@ To enable "Drill-down" analysis—allowing users to move from high-level summari
 Allows navigation from broad Categories down to individual Product Names.
 * `Catégorie` $\rightarrow$ `Sous-catégorie` $\rightarrow$ `Nom du produit`
 
-![alt text](image-3.png)
 
 **2. Geography Hierarchy:**
 Facilitates mapping and location-based analysis.
@@ -120,6 +119,7 @@ The "Sales by Country" choropleth map delineates revenue concentration across Eu
 ### **Conclusion & Insights**
 
 The analysis reveals a highly concentrated market dominance in Central Europe, with France and Germany collectively contributing the majority of the €2.3M total revenue. While sales volume fluctuates drastically across sub-categories, the overall revenue trend demonstrates consistent upward momentum, frequently surpassing the average sales threshold in the latter years. The divergence between quantity and sales value in specific categories suggests opportunities for pricing optimization or inventory adjustment to maximize profit margins on high-volume items.
+
 
 
 
