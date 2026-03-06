@@ -1,12 +1,12 @@
-# 🏥 Exploration and Analysis of Hospital Billing Data with SQL
+# Exploration and Analysis of Hospital Billing Data with SQL
 
-## 📋 Project Overview
+## Project Overview
 
 This project analyzes the complete flow of a patient in a hospital environment — from **care received** to **billing**, **insurance payments**, and **account adjustments** — using SQL Server. The goal is to develop SQL skills applied to real healthcare data while understanding the financial workflow within a hospital system.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - **Understand data relationships** in a real-world healthcare context
 - **Master relational database creation** and management (tables, primary keys, foreign keys)
@@ -15,7 +15,7 @@ This project analyzes the complete flow of a patient in a hospital environment �
 
 ---
 
-## 🗃️ Database Schema
+## Database Schema
 
 The database follows a **star schema** design with **1 Fact Table** at the center and **8 Dimension Tables** around it.
 
@@ -55,7 +55,7 @@ The database follows a **star schema** design with **1 Fact Table** at the cente
 
 ---
 
-## 🔧 Project Stages
+## Project Stages
 
 ### Stage 1 — Database Preparation
 Created the hospital database and defined all 9 tables (1 Fact + 8 Dimensions) with appropriate data types and constraints.
@@ -92,7 +92,7 @@ Answered specific business questions using SQL with joins, aggregations, and ana
 
 ---
 
-## 📊 SQL Analysis Queries & Results
+## SQL Analysis Queries & Results
 
 ### Query 1 — Count rows where GrossCharge > $100
 ```sql
@@ -218,7 +218,7 @@ This demographic segmentation supports population health analysis and targeted c
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 week 10 - SQL SERVER/
@@ -245,7 +245,7 @@ week 10 - SQL SERVER/
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool            | Usage                                             |
 |-----------------|---------------------------------------------------|
@@ -257,7 +257,7 @@ week 10 - SQL SERVER/
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 1. **Star schema design** is effective for hospital data — the central Fact Table connects all dimensions (patient, physician, date, CPT, payer, transaction, location, diagnosis).
 2. **JOIN operations** are essential to reconstruct the full patient journey from fragmented dimension tables.
@@ -267,7 +267,7 @@ week 10 - SQL SERVER/
 
 ---
 
-## 👤 Author
+## Author
 
 **Rachid** — Data Analyst Student  
 *Week 10 — SQL Server Module*
