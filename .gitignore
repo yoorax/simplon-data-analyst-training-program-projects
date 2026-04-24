@@ -1,0 +1,18 @@
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models
+models/
+
+# Datasets
+*.csv
