@@ -12,5 +12,7 @@ env/
 .ipynb_checkpoints
 
 # Models
-# random_forest_model.joblib is ignored because it exceeds GitHub's 100MB limit (1.78 GB)
-Week 14 - Supervided learning in Machine Learning/models/random_forest_model.joblib
+# Ignore all joblib files in the models directory
+**/models/*.joblib
+# Ensure README.md is not ignored
+!**/models/README.md
