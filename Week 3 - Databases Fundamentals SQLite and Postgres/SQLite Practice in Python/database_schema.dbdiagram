@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "darkMode": true,
+  "gridEnabling": false,
+  "detailLevel": "All",
+  "tablePositions": [
+    {
+      "name": "auteurs",
+      "schemaName": "public",
+      "x": 94.19473698244184,
+      "y": -76.6922928176356
+    },
+    {
+      "name": "genre",
+      "schemaName": "public",
+      "x": 73.50772526369184,
+      "y": 107.97664941609764
+    },
+    {
+      "name": "livres",
+      "schemaName": "public",
+      "x": 451.9949395721248,
+      "y": 10.877312749143847
+    },
+    {
+      "name": "emprunteurs",
+      "schemaName": "public",
+      "x": 87.89004948244184,
+      "y": 225.2775298972624
+    },
+    {
+      "name": "emprunts",
+      "schemaName": "public",
+      "x": 826.9186048293536,
+      "y": 163.56277886557976
+    }
+  ],
+  "tableGroupCollapseStates": [],
+  "stickyNoteLayouts": [],
+  "referencePaths": []
+}
