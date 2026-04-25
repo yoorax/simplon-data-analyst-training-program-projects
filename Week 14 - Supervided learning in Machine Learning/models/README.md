@@ -4,7 +4,7 @@ The trained machine learning models for this project are too large to be hosted 
 
 You can download the model files from the following OneDrive link:
 
-[Download Models from OneDrive](https://1drv.ms/f/c/6634fa2c11a9b1ac/IgB7lQvvo-2nTIuk9YZtDgSrAWULZUk6m30wwP48j36xISY?e=qKCcxr)
+[Download Models from OneDrive](https://1drv.ms/f/c/6634fa2c11a9b1ac/IgB7lQvvo-2nTIuk9YZtDgSrAe0EdI_MEPtVGENsTHR_eEo?e=LLKAN6)
 
 ### Instructions
 1. Download the `.joblib` files from the link above.
