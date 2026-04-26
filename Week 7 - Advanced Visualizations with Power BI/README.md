@@ -4,6 +4,13 @@
 
 The implementation of this interactive Power BI dashboard marks a successful transition from static Excel reporting to dynamic, data-driven decision-making. The dashboards provide a comprehensive view across Sales, Supply Chain, and Market Insights. Overall business performance is strong, with **Total Sales reaching 75K**, representing a significant **Year-over-Year (YoY) growth of 35.31%**. Furthermore, total orders (522) and quantity sold (1536) have also seen robust growth exceeding 36%. However, while sales are growing, the supply chain metrics reveal critical bottlenecks that require immediate attention to sustain this momentum.
 
+## Part O: Screenshots Dashboards
+![Screenshot-Dashboards](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 ## Part 1: Answers to Key Business Questions
 
 **1. What are the top 5 performing suppliers or products?**
