@@ -18,7 +18,6 @@
 |------|-------------|
 | `football_stats_partitioned/` | All teams, partitioned by Season (Parquet) |
 | `football_top_teams/` | Season champions only (Parquet) |
-| `visuals/` | 3 PNG charts |
 | `*.ipynb` | Colab notebook with full pipeline |
 
 ### Tech Stack
