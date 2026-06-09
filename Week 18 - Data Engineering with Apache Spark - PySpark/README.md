@@ -20,6 +20,8 @@
 | `football_top_teams/` | Season champions only (Parquet) |
 | `*.ipynb` | Colab notebook with full pipeline |
 
+**link for Power BI DashBoard :** https://app.powerbi.com/links/PRuzZppdyj?ctid=2ec11419-847c-4e29-8815-7f5b2fed9339&pbi_source=linkShare
+
 ### Tech Stack
 - PySpark
 - Google Colab
