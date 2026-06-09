@@ -1,0 +1,11 @@
+product_id,product_name,category,price,product_category,product_price,product_price_tier
+4,support pc portable,accessoires,249.99,accessoires,249.99,1
+8,organiseur de bureau,accessoires,99.00,accessoires,99.00,2
+9,haltères,fitness,549.00,fitness,549.00,1
+3,tapis de sport,fitness,199.00,fitness,199.00,2
+6,bouteille isotherme,fitness,89.00,fitness,89.00,3
+5,cahier atlas,papeterie,35.00,papeterie,35.00,1
+7,montre connectée,électronique,1299.00,électronique,1299.00,1
+2,enceinte bluetooth,électronique,399.50,électronique,399.50,2
+1,souris sans fil,électronique,149.99,électronique,149.99,3
+10,clé usb 32gb,électronique,119.00,électronique,119.00,4

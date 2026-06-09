@@ -1,0 +1,31 @@
+store_name,product_category,total_quantity_sold,total_amount_sold,most_sold_category
+marjane mall,accessoires,2,198.00,1
+marjane mall,accessoires,2,198.00,1
+marjane mall,papeterie,6,210.00,1
+marjane mall,papeterie,6,210.00,2
+carrefour market,fitness,6,534.00,1
+carrefour market,fitness,6,534.00,2
+carrefour market,papeterie,1,35.00,1
+carrefour market,électronique,8,3196.00,1
+carrefour market,électronique,5,6495.00,1
+carrefour market,électronique,8,3196.00,2
+electroplanet,fitness,4,796.00,1
+electroplanet,fitness,4,2196.00,1
+electroplanet,électronique,9,1349.91,1
+electroplanet,électronique,5,6495.00,1
+electroplanet,électronique,9,1349.91,2
+electroplanet,électronique,9,1349.91,2
+aswak assalam,accessoires,18,1782.00,1
+aswak assalam,accessoires,18,1782.00,1
+aswak assalam,accessoires,18,1782.00,2
+aswak assalam,accessoires,18,1782.00,2
+aswak assalam,fitness,5,995.00,1
+aswak assalam,fitness,4,2196.00,2
+aswak assalam,fitness,4,2196.00,2
+aswak assalam,électronique,8,1199.92,1
+aswak assalam,électronique,8,1199.92,2
+tachfine center,accessoires,5,495.00,1
+tachfine center,fitness,5,445.00,1
+tachfine center,électronique,5,6495.00,1
+tachfine center,électronique,5,6495.00,2
+tachfine center,électronique,1,149.99,3
