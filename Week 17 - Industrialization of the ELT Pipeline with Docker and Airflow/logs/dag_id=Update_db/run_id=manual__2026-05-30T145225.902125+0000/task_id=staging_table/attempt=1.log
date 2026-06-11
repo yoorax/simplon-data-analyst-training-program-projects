@@ -1,0 +1,140 @@
+[2026-05-30T14:53:26.325+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-30T14:53:26.504+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_db.staging_table manual__2026-05-30T14:52:25.902125+00:00 [queued]>
+[2026-05-30T14:53:26.605+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_db.staging_table manual__2026-05-30T14:52:25.902125+00:00 [queued]>
+[2026-05-30T14:53:26.623+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-05-30T14:53:26.729+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): staging_table> on 2026-05-30 14:52:25.902125+00:00
+[2026-05-30T14:53:26.789+0000] {standard_task_runner.py:63} INFO - Started process 171 to run task
+[2026-05-30T14:53:26.828+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'update_db', 'staging_table', 'manual__2026-05-30T14:52:25.902125+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpe2e11hls']
+[2026-05-30T14:53:26.842+0000] {standard_task_runner.py:91} INFO - Job 14: Subtask staging_table
+[2026-05-30T14:53:27.428+0000] {task_command.py:426} INFO - Running <TaskInstance: update_db.staging_table manual__2026-05-30T14:52:25.902125+00:00 [running]> on host e1649dd946d3
+[2026-05-30T14:53:27.881+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='data@engineers.com' AIRFLOW_CTX_DAG_OWNER='dataengineers' AIRFLOW_CTX_DAG_ID='update_db' AIRFLOW_CTX_TASK_ID='staging_table' AIRFLOW_CTX_EXECUTION_DATE='2026-05-30T14:52:25.902125+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-30T14:52:25.902125+00:00'
+[2026-05-30T14:53:27.886+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-30T14:53:27.904+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-05-30T14:53:27.910+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2026-05-30T14:53:27.975+0000] {data_loading.py:13} INFO - Processing file: YT_data_2026-05-30
+[2026-05-30T14:53:28.005+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2026-05-30T14:53:28.042+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2026-05-30T14:53:28.236+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: J7iuGS214Tk
+[2026-05-30T14:53:28.243+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: qKJ8eoi2Btk
+[2026-05-30T14:53:28.253+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: -uvak-k7Hm8
+[2026-05-30T14:53:28.262+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: E9E2LagzuDM
+[2026-05-30T14:53:28.277+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: ro80pWQTGXY
+[2026-05-30T14:53:28.286+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Blfem-XAUdw
+[2026-05-30T14:53:28.293+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: CbkvMJF4jLg
+[2026-05-30T14:53:28.299+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: EwYVwbO8xd0
+[2026-05-30T14:53:28.306+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: U9ukBVeSRqA
+[2026-05-30T14:53:28.313+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: UQn8fXQmSXw
+[2026-05-30T14:53:28.318+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: hbnl7l045rA
+[2026-05-30T14:53:28.323+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: zsRLb4vhAnQ
+[2026-05-30T14:53:28.329+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: TcVcZafZNuc
+[2026-05-30T14:53:28.338+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: p3BJry8mZd0
+[2026-05-30T14:53:28.343+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: BPvJqDKV2IU
+[2026-05-30T14:53:28.352+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 08hlv93K0kQ
+[2026-05-30T14:53:28.357+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 3XfUt7ZVXYE
+[2026-05-30T14:53:28.367+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Wi_qbuXala8
+[2026-05-30T14:53:28.372+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: nsGvobA2pZ4
+[2026-05-30T14:53:28.381+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: PjxEhmatyG0
+[2026-05-30T14:53:28.385+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 0wymT7Qesws
+[2026-05-30T14:53:28.392+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 5ymHCaPjqBw
+[2026-05-30T14:53:28.401+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: cn4sVkizmAg
+[2026-05-30T14:53:28.409+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: FLz8TPvr9-o
+[2026-05-30T14:53:28.413+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: R8QQWpvj3vk
+[2026-05-30T14:53:28.419+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: kfY_QVusCRQ
+[2026-05-30T14:53:28.425+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: VpeJJAYr_do
+[2026-05-30T14:53:28.435+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: fKs9sq4fGS4
+[2026-05-30T14:53:28.442+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Pd63Q2g2z2s
+[2026-05-30T14:53:28.449+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: fVQYvEbqcEU
+[2026-05-30T14:53:28.459+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: -J-JudZbtBA
+[2026-05-30T14:53:28.464+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: qVFbRid8RdU
+[2026-05-30T14:53:28.473+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Uc44Bk3I8zI
+[2026-05-30T14:53:28.480+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Bs_omT0QPHs
+[2026-05-30T14:53:28.489+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: eBUOqZH6hhI
+[2026-05-30T14:53:28.497+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: rYtFHPSoX8o
+[2026-05-30T14:53:28.502+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: W7kY8VqILGE
+[2026-05-30T14:53:28.511+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: vqyfPkhMsFw
+[2026-05-30T14:53:28.518+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: LWqWssPXYZE
+[2026-05-30T14:53:28.533+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: WpkYBwLa9as
+[2026-05-30T14:53:28.539+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: TxFcfhtZDAU
+[2026-05-30T14:53:28.551+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: OIIGubqPprY
+[2026-05-30T14:53:28.570+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Oa8We6Uy2Tg
+[2026-05-30T14:53:28.577+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: l1B9svMQoII
+[2026-05-30T14:53:28.588+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: RZo0pPImJCU
+[2026-05-30T14:53:28.600+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: GMBi7AtYOTQ
+[2026-05-30T14:53:28.611+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: F6I8Yi6qZ14
+[2026-05-30T14:53:28.618+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: KsRiniegN58
+[2026-05-30T14:53:28.627+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 3PUOYTrqFOE
+[2026-05-30T14:53:28.635+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: WL7gICZID8A
+[2026-05-30T14:53:28.644+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: yKvcHDy__gs
+[2026-05-30T14:53:28.657+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: _pOzPjd3bE0
+[2026-05-30T14:53:28.670+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: F7ik2y2NpNA
+[2026-05-30T14:53:28.676+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 325SWvlOYME
+[2026-05-30T14:53:28.686+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 39hnQGzYO6M
+[2026-05-30T14:53:28.722+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 2Lx_hVAJS9o
+[2026-05-30T14:53:28.738+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: GyHp_lB8f_k
+[2026-05-30T14:53:28.760+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 3z32TUvZ6_0
+[2026-05-30T14:53:28.774+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: A8fVMBaj8Ew
+[2026-05-30T14:53:28.786+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: sNLE26ouDW0
+[2026-05-30T14:53:28.801+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: TOhMvikfZ-M
+[2026-05-30T14:53:28.833+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: mwa5q6YCaAM
+[2026-05-30T14:53:28.861+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: VIqOhk7rdZM
+[2026-05-30T14:53:28.883+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: eNDOq4mcBDQ
+[2026-05-30T14:53:28.912+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: fR7H02efUaA
+[2026-05-30T14:53:28.946+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: lVeaMJNLmv8
+[2026-05-30T14:53:28.968+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: sbjtshYTdTQ
+[2026-05-30T14:53:29.016+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: t9cyYSDVHqQ
+[2026-05-30T14:53:29.061+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: SAI7sqQNy8I
+[2026-05-30T14:53:29.076+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: GUa80ZR9RzU
+[2026-05-30T14:53:29.117+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: oThcYYTa_00
+[2026-05-30T14:53:29.144+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: JqZWuseICJc
+[2026-05-30T14:53:29.167+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: iakEDtJwLCE
+[2026-05-30T14:53:29.206+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: v30u6I4GE2Y
+[2026-05-30T14:53:29.225+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 6kPs_x8F6vU
+[2026-05-30T14:53:29.279+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: -pl-NHbh9IY
+[2026-05-30T14:53:29.309+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: nV4pYLAyUWs
+[2026-05-30T14:53:29.378+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: OpR1QCjt4-A
+[2026-05-30T14:53:29.394+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: gx_WIYhEvRA
+[2026-05-30T14:53:29.412+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: xfeb58GpcgQ
+[2026-05-30T14:53:29.433+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: oJgLlxnFA2M
+[2026-05-30T14:53:29.466+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: WOTJAItNO-s
+[2026-05-30T14:53:29.505+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: IXVTbaZ75E0
+[2026-05-30T14:53:29.529+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 5ORXbiGAehs
+[2026-05-30T14:53:29.549+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 5LgIcd3f0jo
+[2026-05-30T14:53:29.563+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: yUnoOVYrXog
+[2026-05-30T14:53:29.571+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: eKeZRgrTb3Q
+[2026-05-30T14:53:29.577+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: SJcpbpddg9U
+[2026-05-30T14:53:29.585+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: p6w1P7atIQ0
+[2026-05-30T14:53:29.590+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 4O1upfq4Mhg
+[2026-05-30T14:53:29.595+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: egl8T-W95tQ
+[2026-05-30T14:53:29.610+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 7YSMee9Ak1A
+[2026-05-30T14:53:29.618+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: cnrp5z7NNQY
+[2026-05-30T14:53:29.629+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Yjujgs8daCs
+[2026-05-30T14:53:29.649+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: ULCIZ7m1ZSY
+[2026-05-30T14:53:29.658+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: qcGRn5yo41U
+[2026-05-30T14:53:29.677+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 3TmsouE7zOM
+[2026-05-30T14:53:29.685+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: vM8dzsQa85k
+[2026-05-30T14:53:29.701+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: AHMRYGtv53s
+[2026-05-30T14:53:29.733+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: -4wa0Rh31no
+[2026-05-30T14:53:29.751+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: _4WvUW9r0wg
+[2026-05-30T14:53:29.755+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: M_GLYQC2f9s
+[2026-05-30T14:53:29.772+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: vnUy-Y41x-4
+[2026-05-30T14:53:29.801+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: wIhS4E8YJNU
+[2026-05-30T14:53:29.822+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: KV6SDMkaj2Q
+[2026-05-30T14:53:29.898+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 7DhonxPQ90M
+[2026-05-30T14:53:29.947+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: yG69NuIt_R8
+[2026-05-30T14:53:29.992+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: S63TTTBvov4
+[2026-05-30T14:53:30.036+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: Q_W9JTjrtTk
+[2026-05-30T14:53:30.084+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: 8hTvnvAXNmA
+[2026-05-30T14:53:30.101+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: w5Of9szobNQ
+[2026-05-30T14:53:30.117+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: ZeDzaTqg5AQ
+[2026-05-30T14:53:30.131+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: saDkFV0Y4V8
+[2026-05-30T14:53:30.159+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: g7-NzO75-8o
+[2026-05-30T14:53:30.171+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: DqilNbGiuBA
+[2026-05-30T14:53:30.188+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: HPhrl-_HO_w
+[2026-05-30T14:53:30.204+0000] {data_modification.py:37} INFO - Inserted row with Video_ID: EoEUvHazmDo
+[2026-05-30T14:53:30.207+0000] {dwh.py:40} INFO - staging table update completed
+[2026-05-30T14:53:30.241+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-05-30T14:53:30.247+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-30T14:53:30.305+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=update_db, task_id=staging_table, run_id=manual__2026-05-30T14:52:25.902125+00:00, execution_date=20260530T145225, start_date=20260530T145326, end_date=20260530T145330
+[2026-05-30T14:53:30.483+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-05-30T14:53:30.645+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-30T14:53:30.650+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

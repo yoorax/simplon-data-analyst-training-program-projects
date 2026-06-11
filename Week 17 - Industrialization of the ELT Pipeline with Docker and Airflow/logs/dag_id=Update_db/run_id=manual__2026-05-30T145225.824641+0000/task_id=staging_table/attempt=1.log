@@ -1,0 +1,82 @@
+[2026-05-30T14:53:26.723+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-30T14:53:27.339+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_db.staging_table manual__2026-05-30T14:52:25.824641+00:00 [queued]>
+[2026-05-30T14:53:27.432+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_db.staging_table manual__2026-05-30T14:52:25.824641+00:00 [queued]>
+[2026-05-30T14:53:27.436+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-05-30T14:53:27.503+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): staging_table> on 2026-05-30 14:52:25.824641+00:00
+[2026-05-30T14:53:27.530+0000] {standard_task_runner.py:63} INFO - Started process 172 to run task
+[2026-05-30T14:53:27.567+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'update_db', 'staging_table', 'manual__2026-05-30T14:52:25.824641+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp_v8o3h11']
+[2026-05-30T14:53:27.572+0000] {standard_task_runner.py:91} INFO - Job 15: Subtask staging_table
+[2026-05-30T14:53:27.941+0000] {task_command.py:426} INFO - Running <TaskInstance: update_db.staging_table manual__2026-05-30T14:52:25.824641+00:00 [running]> on host e1649dd946d3
+[2026-05-30T14:53:28.279+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='data@engineers.com' AIRFLOW_CTX_DAG_OWNER='dataengineers' AIRFLOW_CTX_DAG_ID='update_db' AIRFLOW_CTX_TASK_ID='staging_table' AIRFLOW_CTX_EXECUTION_DATE='2026-05-30T14:52:25.824641+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-30T14:52:25.824641+00:00'
+[2026-05-30T14:53:28.282+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-30T14:53:28.312+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-05-30T14:53:28.325+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2026-05-30T14:53:28.349+0000] {data_loading.py:13} INFO - Processing file: YT_data_2026-05-30
+[2026-05-30T14:53:28.366+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2026-05-30T14:53:28.390+0000] {base.py:84} INFO - Using connection ID 'postgres_db_yt_elt' for task execution.
+[2026-05-30T14:53:28.439+0000] {data_modification.py:78} INFO - Updated row with Video_ID: J7iuGS214Tk
+[2026-05-30T14:53:28.445+0000] {data_modification.py:78} INFO - Updated row with Video_ID: qKJ8eoi2Btk
+[2026-05-30T14:53:28.453+0000] {data_modification.py:78} INFO - Updated row with Video_ID: -uvak-k7Hm8
+[2026-05-30T14:53:28.463+0000] {data_modification.py:78} INFO - Updated row with Video_ID: E9E2LagzuDM
+[2026-05-30T14:53:28.467+0000] {data_modification.py:78} INFO - Updated row with Video_ID: ro80pWQTGXY
+[2026-05-30T14:53:28.477+0000] {data_modification.py:78} INFO - Updated row with Video_ID: Blfem-XAUdw
+[2026-05-30T14:53:28.483+0000] {data_modification.py:78} INFO - Updated row with Video_ID: CbkvMJF4jLg
+[2026-05-30T14:53:28.490+0000] {data_modification.py:78} INFO - Updated row with Video_ID: EwYVwbO8xd0
+[2026-05-30T14:53:28.494+0000] {data_modification.py:78} INFO - Updated row with Video_ID: U9ukBVeSRqA
+[2026-05-30T14:53:28.500+0000] {data_modification.py:78} INFO - Updated row with Video_ID: UQn8fXQmSXw
+[2026-05-30T14:53:28.508+0000] {data_modification.py:78} INFO - Updated row with Video_ID: hbnl7l045rA
+[2026-05-30T14:53:28.513+0000] {data_modification.py:78} INFO - Updated row with Video_ID: zsRLb4vhAnQ
+[2026-05-30T14:53:28.521+0000] {data_modification.py:78} INFO - Updated row with Video_ID: TcVcZafZNuc
+[2026-05-30T14:53:28.541+0000] {data_modification.py:78} INFO - Updated row with Video_ID: p3BJry8mZd0
+[2026-05-30T14:53:28.558+0000] {data_modification.py:78} INFO - Updated row with Video_ID: BPvJqDKV2IU
+[2026-05-30T14:53:28.567+0000] {data_modification.py:78} INFO - Updated row with Video_ID: 08hlv93K0kQ
+[2026-05-30T14:53:28.580+0000] {data_modification.py:78} INFO - Updated row with Video_ID: 3XfUt7ZVXYE
+[2026-05-30T14:53:28.597+0000] {data_modification.py:78} INFO - Updated row with Video_ID: Wi_qbuXala8
+[2026-05-30T14:53:28.603+0000] {data_modification.py:78} INFO - Updated row with Video_ID: nsGvobA2pZ4
+[2026-05-30T14:53:28.615+0000] {data_modification.py:78} INFO - Updated row with Video_ID: PjxEhmatyG0
+[2026-05-30T14:53:28.623+0000] {data_modification.py:78} INFO - Updated row with Video_ID: 0wymT7Qesws
+[2026-05-30T14:53:28.631+0000] {data_modification.py:78} INFO - Updated row with Video_ID: 5ymHCaPjqBw
+[2026-05-30T14:53:28.638+0000] {data_modification.py:78} INFO - Updated row with Video_ID: cn4sVkizmAg
+[2026-05-30T14:53:28.665+0000] {data_modification.py:78} INFO - Updated row with Video_ID: FLz8TPvr9-o
+[2026-05-30T14:53:28.680+0000] {data_modification.py:78} INFO - Updated row with Video_ID: R8QQWpvj3vk
+[2026-05-30T14:53:28.701+0000] {data_modification.py:40} ERROR - Error inserting row with Video_ID: kfY_QVusCRQ
+[2026-05-30T14:53:28.733+0000] {dwh.py:43} ERROR - An error occurred during the update of staging table: duplicate key value violates unique constraint "yt_api_pkey"
+DETAIL:  Key ("Video_ID")=(kfY_QVusCRQ) already exists.
+
+[2026-05-30T14:53:28.735+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-30T14:53:28.740+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 44, in staging_table
+    raise e
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 35, in staging_table
+    insert_rows(cur, conn, schema, row)
+  File "/opt/airflow/dags/datawarehouse/data_modification.py", line 41, in insert_rows
+    raise e
+  File "/opt/airflow/dags/datawarehouse/data_modification.py", line 15, in insert_rows
+    cur.execute(
+  File "/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py", line 236, in execute
+    return super().execute(query, vars)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "yt_api_pkey"
+DETAIL:  Key ("Video_ID")=(kfY_QVusCRQ) already exists.
+
+[2026-05-30T14:53:29.229+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=update_db, task_id=staging_table, run_id=manual__2026-05-30T14:52:25.824641+00:00, execution_date=20260530T145225, start_date=20260530T145327, end_date=20260530T145329
+[2026-05-30T14:53:29.389+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 15 for task staging_table (duplicate key value violates unique constraint "yt_api_pkey"
+DETAIL:  Key ("Video_ID")=(kfY_QVusCRQ) already exists.
+; 172)
+[2026-05-30T14:53:29.574+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-05-30T14:53:29.683+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-30T14:53:29.732+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
