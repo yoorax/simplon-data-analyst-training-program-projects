@@ -4,7 +4,7 @@ An industrialized, end-to-end Data Engineering pipeline designed to extract data
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 In production, running raw local scripts is not viable. This project replaces manual execution with an enterprise-grade architecture focusing on **portability, reproducibility, automation, and scalability**. 
 
@@ -17,7 +17,7 @@ In production, running raw local scripts is not viable. This project replaces ma
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 
 * **Orchestration:** Apache Airflow (`CeleryExecutor`)
 * **Containerization:** Docker & Docker Compose
@@ -29,7 +29,7 @@ In production, running raw local scripts is not viable. This project replaces ma
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── dags/               # Airflow DAG definitions (task workflows)
