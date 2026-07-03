@@ -38,6 +38,12 @@ This document provides a complete overview of the cleaned dataset schemas and th
 *   **`geolocation_state`**
     *   *Description:* State abbreviation associated with the zip code.
     *   *Data Type:* Categorical
+*   **`geolocation_state_name`**
+    *   *Description:* Full name of the state (e.g., São Paulo, Rio de Janeiro, Minas Gerais).
+    *   *Data Type:* Categorical
+*   **`geolocation_region`**
+    *   *Description:* Geographical region of Brazil where the state is located (e.g., Southeast, South, Northeast, North, Center_West).
+    *   *Data Type:* Categorical
 
 ---
 
